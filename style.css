@@ -1,0 +1,87 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #031662, #01fec5);
+    -webkit-text-fill-color: content-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.container section {
+    margin: auto;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    align-items: center;
+    background-image: url(ggg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+}
+
+.container section>h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.container section.login form {
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.container section.login input {
+    outline: none;
+    border: none;
+    position: relative;
+    padding: 15px 10px;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.504);
+}
+
+.container section .user,
+.container section .id {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: start;
+}
+
+.container section .user input,
+.container section .id input {
+    width: 100%;
+}
+
+.container section .year {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
